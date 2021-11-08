@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Alimenticios</title>
+</head>
+
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+
+    fieldset {
+            margin-bottom: 12px;
+        }
+</style>
+<body>
+<fieldset>
+    <section>  
+        <h1> PRODUCTOS ALIMENTICIOS </h1>
+        </article>
+        <div id="c2" class="options-x">
+        <div  id="r2"></div>
+
+    </section>
+</fieldset>
+
+
+    <script>
+
+function imprimeDatos(){
+        document.getElementById('r2').innerHTML +=('Codigo:' + this.codigo + '<br>' + 'Nombre:'+this.nombre+ '<br>' +
+        'Precio:'+ this.precio + '<br>' +'   '+'<br>');
+    }
+    function Producto_alimenticio (codigo,nombre,precio){
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.imprimeDatos = imprimeDatos;
+    }
+    var productos = new Array(3);
+    productos[0] = new Producto_alimenticio('001','Atún','1.25');
+    productos[1] = new Producto_alimenticio('002','Huevo','0.15');
+    productos[2] = new Producto_alimenticio('003','Tomate','0.10');
+    for(var i=0; i<productos.length; i++){
+        var p = document.createElement("p");
+        p.innerHTML = productos[i].imprimeDatos();
+    }
+
+    </script>
+</body>
+</html>
