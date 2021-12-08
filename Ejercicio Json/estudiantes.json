@@ -1,0 +1,94 @@
+[
+    {
+      "cedula": "0957345797",
+      "nombre": "Kevin Levin",
+      "dirección": "Mz 5 V8 ",
+      "telefono": "0998765467",
+      "correo": "kevin@gmail.com",
+      "curso": "5to",
+      "paralelo":"B"
+    },
+    {
+        "cedula": "0957345788",
+        "nombre": "Andrea Suarez",
+        "dirección": "Mz 4 V7",
+        "telefono": "0998767860",
+        "correo": "andrea@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    },
+    {
+        "cedula": "0957345722",
+        "nombre": "Gabriel Suarez",
+        "dirección": "Mz 25 V8 ",
+        "telefono": "0998767822",
+        "correo": "andrea@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    }
+    ,
+    {
+        "cedula": "0957345782",
+        "nombre": "Xavier Morán",
+        "dirección": "Mz 45 V8 ",
+        "telefono": "0998767622",
+        "correo": "xavier@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    },
+    {
+        "cedula": "0957775722",
+        "nombre": "Sofía Suarez",
+        "dirección": "Mz 550 v7",
+        "telefono": "0998767822",
+        "correo": "andrea@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    },
+    {
+        "cedula": "092345722",
+        "nombre": "Reinaldo Calderón",
+        "dirección": "Mz 15 V2",
+        "telefono": "0955767822",
+        "correo": "calderon@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    },
+    {
+        "cedula": "0900345722",
+        "nombre": "Lorena Suarez",
+        "dirección": "Mz 4 V1",
+        "telefono": "0990067822",
+        "correo": "lorena@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    },
+    {
+        "cedula": "0957340022",
+        "nombre": "Fernando Delgado",
+        "dirección": "Mz 4 V4 ",
+        "telefono": "0998743822",
+        "correo": "fernando@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    },
+    {
+        "cedula": "0958755642",
+        "nombre": "Shayna Cedeño",
+        "dirección": "Mz 67 V8 ",
+        "telefono": "0998547822",
+        "correo": "shay-ni@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    },
+    {
+        "cedula": "0957345722",
+        "nombre": "Gabriel Cedeño",
+        "dirección": "Mz 550 V7",
+        "telefono": "0902767822",
+        "correo": "gabriel-cede@gmail.com",
+        "curso": "5to",
+        "paralelo":"B"
+    }
+
+  ]
